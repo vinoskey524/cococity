@@ -3,14 +3,18 @@
   "type": "module",
   "packageManager": "yarn@4.9.1",
   "scripts": {
-    "s": "clear && yarn tsx src/test.ts"
+    "s": "clear && yarn tsx src/test.ts",
+    "b": "esbuild src/main.ts --bundle --minify --outfile=dist/index.js --target=es2022 --platform=node"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.13",
-    "tsx": "^4.19.3"
+    "@types/kd-tree-javascript": "^1.0.3",
+    "esbuild": "^0.25.8",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
   },
   "dependencies": {
     "better-sqlite3": "^11.10.0",
-    "kd-tree-javascript": "^1.0.3"  
+    "kd-tree-javascript": "^1.0.3"
   }
 }

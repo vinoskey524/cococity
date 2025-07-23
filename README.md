@@ -217,7 +217,6 @@ console.log(citiesOfCountries.data);
 
 ```sh
 # log - "citiesOfBenin.data"
-
 ```
 
 - **`getCities`**: It takes as argument a string or an array of strings to filter props.
@@ -238,8 +237,7 @@ console.log(citiesOfCountries.data);
 
 ## Author
 
-My name is **Hamet Kévin E. ODOUTAN** (@vinoskey524). I’ve been doing software development since 8 years now. I do web, desktop, and mobile development, and now I’m very excited
-to contribute to open-source with forestDB.
+My name is **Hamet Kévin E. ODOUTAN** (@vinoskey524). I’ve been doing software development since 8 years now. I do web, desktop, and mobile development, and now I’m very excited to contribute to open-source with forestDB.
 
 I’m not the kind of developer who types “How to build a cool web app” into Google and picks the first response, or the kind who makes a dumb copy-paste from ChatGPT. No !
 I like to understand things and know what I’m really doing. For me, a real developer should be able to explain every single line of his code.
@@ -255,13 +253,7 @@ I’m really passionate about building software, and **I sincerely believe that 
 
 ## Contact Me
 
-If you have any project, questions, issues, or feedback, feel free to reach out ! I'd love to hear from you.
-
-- **Email**: [vinoskey524@gmail.com](mailto:vinoskey524@gmail.com)
-
-- **X**: [@vinoskey524_](https://x.com/vinoskey524_) (Notice the underscore at the end)
-
-I speak both French and English.
+Feel free to contact me at [vinoskey524@gmail.com](mailto:vinoskey524@gmail.com). I speak both French and English.
 
 ## License
 
