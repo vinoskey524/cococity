@@ -4,12 +4,13 @@
   "packageManager": "yarn@4.9.1",
   "scripts": {
     "s": "clear && yarn tsx src/test.ts",
-    "b": "esbuild src/main.ts --bundle --minify --outfile=dist/index.js --target=es2022 --platform=node"
+    "b": "clear && tsc --emitDeclarationOnly && esbuild src/main.ts --minify --bundle --outfile=dist/main.js --platform=node --format=esm"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.13",
     "@types/kd-tree-javascript": "^1.0.3",
     "esbuild": "^0.25.8",
+    "tsc": "^2.0.4",
     "tsx": "^4.19.3",
     "typescript": "^5.8.3"
   },

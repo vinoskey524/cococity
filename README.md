@@ -27,11 +27,14 @@ A lightweight and high-performance library that provides regional data and preci
 ## Installation
 
 ```sh
+# npm
+$ npm install cococity
+
 # yarn
 $ yarn add cococity
 
-# npm
-$ npm install cococity
+# bun
+$ bun add cococity
 
 # deno
 $ deno add npm:cococity
@@ -54,6 +57,8 @@ Cococity (COtinent COuntry CITY) is a lightweight 100% Typescript package that p
 - A very complete and up-to-date database.
 
 ## DATA
+
+-
 
 ## API Documentation
 
@@ -253,7 +258,7 @@ I’m really passionate about building software, and **I sincerely believe that 
 
 ## Contact Me
 
-Feel free to contact me at [vinoskey524@gmail.com](mailto:vinoskey524@gmail.com). I speak both French and English.
+Feel free to reach me at [vinoskey524@gmail.com](mailto:vinoskey524@gmail.com). I speak both French and English.
 
 ## License
 
