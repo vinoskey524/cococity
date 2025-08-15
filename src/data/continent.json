@@ -1,0 +1,9 @@
+[
+{ "id": "africa", "fullName": "Africa", "code": "AF" },
+{ "id": "asia", "fullName": "Asia", "code": "AS" },
+{ "id": "america", "fullName": "America", "code": "AM" },
+{ "id": "north_america", "fullName": "North America", "code": "NA" },
+{ "id": "south_america", "fullName": "South America", "code": "SA" },
+{ "id": "europe", "fullName": "Europe", "code": "EU" },
+{ "id": "oceania", "fullName": "Oceania", "code": "OC" }
+]

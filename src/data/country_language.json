@@ -1,0 +1,2398 @@
+[ 
+{ 
+    "country": "Aruba",
+    "iso": "AW",
+    "languages": [ 
+        "Dutch", 
+        "English", 
+        "Papiamento", 
+        "Spanish" 
+    ] 
+},
+{ 
+    "country": "Afghanistan",
+    "iso": "AF",
+    "languages": [ 
+        "Balochi", 
+        "Dari", 
+        "Pashto", 
+        "Turkmenian", 
+        "Uzbek" 
+    ] 
+}, 
+{ 
+    "country": "Angola",
+    "iso": "AO",
+    "languages": [ 
+        "Ambo", 
+        "Chokwe", 
+        "Kongo", 
+        "Luchazi", 
+        "Luimbe-nganguela", 
+        "Luvale", 
+        "Mbundu", 
+        "Nyaneka-nkhumbi", 
+        "Ovimbundu" 
+    ]
+}, 
+{ 
+    "country": "Anguilla",
+    "iso": "AI",
+    "languages": [ 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Albania",
+    "iso": "AL",
+    "languages": [ 
+        "Albaniana", 
+        "Greek", 
+        "Macedonian" 
+    ] 
+}, 
+{ 
+    "country": "Andorra",
+    "iso": "AD",
+    "languages": [ 
+        "Catalan", 
+        "French", 
+        "Portuguese", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Netherlands",
+    "iso": "NL",
+    "languages": [ 
+        "Dutch", 
+        "English", 
+        "Papiamento" 
+    ] 
+}, 
+{ 
+    "country": "United Arab Emirates",
+    "iso": "AE",
+    "languages": [ 
+        "Arabic", 
+        "Hindi" 
+    ] 
+}, 
+{ 
+    "country": "Argentina",
+    "iso": "AR",
+    "languages": [ 
+        "Indian Languages", 
+        "Italian", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Armenia",
+    "iso": "AM",
+    "languages": [ 
+        "Armenian", 
+        "Azerbaijani" 
+    ] 
+}, 
+{ 
+    "country": "American Samoa",
+    "iso": "AS",
+    "languages": [ 
+        "English", 
+        "Samoan", 
+        "Tongan" 
+    ] 
+}, 
+{ 
+    "country": "Antigua and Barbuda",
+    "iso": "AG",
+    "languages": [ 
+        "Creole English", 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Australia",
+    "iso": "AU",
+    "languages": [ 
+        "Arabic", 
+        "Canton Chinese", 
+        "English", 
+        "German", 
+        "Greek", 
+        "Italian", 
+        "Serbo-Croatian", 
+        "Vietnamese" 
+    ] 
+}, 
+{ 
+    "country": "Austria",
+    "iso": "AT",
+    "languages": [ 
+        "Czech", 
+        "German", 
+        "Hungarian", 
+        "Polish", 
+        "Romanian", 
+        "Serbo-Croatian", 
+        "Slovene", 
+        "Turkish" 
+    ] 
+}, 
+{ 
+    "country": "Azerbaijan",
+    "iso": "AZ",
+    "languages": [ 
+        "Armenian", 
+        "Azerbaijani", 
+        "Lezgian", 
+        "Russian" 
+    ] 
+}, 
+{ 
+    "country": "Burundi",
+    "iso": "BI",
+    "languages": [ 
+        "French", 
+        "Kirundi", 
+        "Swahili" 
+    ] 
+}, 
+{ 
+    "country": "Belgium",
+    "iso": "BE",
+    "languages": [ 
+        "Arabic", 
+        "Dutch", 
+        "French", 
+        "German", 
+        "Italian", 
+        "Turkish" 
+    ] 
+}, 
+{ 
+    "country": "Benin",
+    "iso": "BJ",
+    "languages": [ 
+        "Adja", 
+        "Aizo", 
+        "Bariba", 
+        "Fon", 
+        "Ful", 
+        "Joruba", 
+        "Somba",
+        "French"
+    ] 
+}, 
+{ 
+    "country": "Burkina Faso",
+    "iso": "BF",
+    "languages": [ 
+        "Busansi", 
+        "Dagara", 
+        "Dyula", 
+        "Ful", 
+        "Gurma", 
+        "Mossi",
+        "French"
+    ] 
+}, 
+{ 
+    "country": "Bangladesh",
+    "iso": "BD",
+    "languages": [ 
+        "Bengali", 
+        "Chakma", 
+        "Garo", 
+        "Khasi", 
+        "Marma", 
+        "Santhali", 
+        "Tripuri" 
+    ] 
+}, 
+{ 
+    "country": "Bulgaria",
+    "iso": "BG",
+    "languages": [ 
+        "Bulgariana", 
+        "Macedonian", 
+        "Romani", 
+        "Turkish" 
+    ] 
+}, 
+{ 
+    "country": "Bahrain",
+    "iso": "BH",
+    "languages": [ 
+        "Arabic", 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Bahamas",
+    "iso": "BS",
+    "languages": [ 
+        "Creole English", 
+        "Creole French" 
+    ] 
+}, 
+{ 
+    "country": "Bosnia and Herzegovina",
+    "iso": "BA",
+    "languages": [ 
+        "Bosnian" 
+    ] 
+}, 
+{ 
+    "country": "Belarus",
+    "iso": "BY",
+    "languages": [ 
+        "Belorussian", 
+        "Polish", 
+        "Russian", 
+        "Ukrainian" 
+    ] 
+}, 
+{ 
+    "country": "Belize",
+    "iso": "BZ",
+    "languages": [ 
+        "English", 
+        "Garifuna", 
+        "Maya Languages", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Bermuda",
+    "iso": "BM",
+    "languages": [ 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Bolivia",
+    "iso": "BO",
+    "languages": [ 
+        "Aimar√°", 
+        "Guaran√≠", 
+        "Ket¬öua", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Brazil",
+    "iso": "BR",
+    "languages": [ 
+        "German", 
+        "Indian Languages", 
+        "Italian", 
+        "Japanese", 
+        "Portuguese" 
+    ] 
+}, 
+{ 
+    "country": "Barbados",
+    "iso": "BB",
+    "languages": [ 
+        "Bajan", 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Brunei",
+    "iso": "BN",
+    "languages": [ 
+        "Chinese", 
+        "English", 
+        "Malay", 
+        "Malay-English" 
+    ] 
+}, 
+{ 
+    "country": "Bhutan",
+    "iso": "BT",
+    "languages": [ 
+        "Asami", 
+        "Dzongkha", 
+        "Nepali" 
+    ] 
+}, 
+{ 
+    "country": "Botswana",
+    "iso": "BW",
+    "languages": [ 
+        "Khoekhoe", 
+        "Ndebele", 
+        "San", 
+        "Shona", 
+        "Tswana" 
+    ] 
+}, 
+{ 
+    "country": "Central African Republic",
+    "iso": "CF",
+    "languages": [ 
+        "Banda", 
+        "Gbaya", 
+        "Mandjia", 
+        "Mbum", 
+        "Ngbaka", 
+        "Sara" 
+    ] 
+}, 
+{ 
+    "country": "Canada",
+    "iso": "CA",
+    "languages": [ 
+        "Chinese", 
+        "Dutch", 
+        "English", 
+        "Eskimo Languages", 
+        "French", 
+        "German", 
+        "Italian", 
+        "Polish", 
+        "Portuguese", 
+        "Punjabi", 
+        "Spanish", 
+        "Ukrainian" 
+    ] 
+}, 
+{ 
+    "country": "Cocos (Keeling) Islands",
+    "iso": null,
+    "languages": [ 
+        "English", 
+        "Malay" 
+    ] 
+}, 
+{ 
+    "country": "Switzerland",
+    "iso": "CH",
+    "languages": [ 
+        "French", 
+        "German", 
+        "Italian", 
+        "Romansh" 
+    ] 
+}, 
+{ 
+    "country": "Chile",
+    "iso": "CL",
+    "languages": [ 
+        "Aimar√°", 
+        "Araucan", 
+        "Rapa nui", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "China",
+    "iso": "CN",
+    "languages": [ 
+        "Chinese", 
+        "Dong", 
+        "Hui", 
+        "Mant¬öu", 
+        "Miao", 
+        "Mongolian", 
+        "Puyi", 
+        "Tibetan", 
+        "Tujia", 
+        "Uighur", 
+        "Yi", 
+        "Zhuang" 
+    ] 
+}, 
+{ 
+    "country": "Ivory Coast",
+    "iso": "CI",
+    "languages": [ 
+        "Akan", 
+        "Gur", 
+        "Kru", 
+        "Malinke", 
+        "[South]Mande",
+        "French"
+    ] 
+}, 
+{ 
+    "country": "Cameroon",
+    "iso": "CM",
+    "languages": [ 
+        "Bamileke-bamum", 
+        "Duala", 
+        "Fang", 
+        "Ful", 
+        "Maka", 
+        "Mandara", 
+        "Masana", 
+        "Tikar" 
+    ] 
+}, 
+{ 
+    "country": "Congo (Kinshasa)",
+    "iso": "CD",
+    "languages": [ 
+        "Lingala", 
+        "Kikongo", 
+        "Swahili", 
+        "Tshiluba" 
+    ] 
+}, 
+{ 
+    "country": "Congo (Brazzaville)",
+    "iso": "CG",
+    "languages": [ 
+        "Kongo", 
+        "Mbete", 
+        "Mboshi", 
+        "Punu", 
+        "Sango", 
+        "Teke" 
+    ] 
+}, 
+{ 
+    "country": "Cook Islands",
+    "iso": "CK",
+    "languages": [ 
+        "English", 
+        "Maori" 
+    ] 
+}, 
+{ 
+    "country": "Colombia",
+    "iso": "CO",
+    "languages": [ 
+        "Arawakan", 
+        "Caribbean", 
+        "Chibcha", 
+        "Creole English", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Comoros",
+    "iso": "KM",
+    "languages": [ 
+        "Comorian", 
+        "Comorian-Arabic", 
+        "Comorian-French", 
+        "Comorian-madagassi", 
+        "Comorian-Swahili" 
+    ] 
+}, 
+{ 
+    "country": "Cape Verde",
+    "iso": "CV",
+    "languages": [ 
+        "Crioulo", 
+        "Portuguese" 
+    ] 
+}, 
+{ 
+    "country": "Costa Rica",
+    "iso": "CR",
+    "languages": [ 
+        "Chibcha", 
+        "Chinese", 
+        "Creole English", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Cuba",
+    "iso": "CU",
+    "languages": [ 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Christmas Island",
+    "iso": "CX",
+    "languages": [ 
+        "Chinese", 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Cayman Islands",
+    "iso": "KY",
+    "languages": [ 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Cyprus",
+    "iso": "CY",
+    "languages": [ 
+        "Greek", 
+        "Turkish" 
+    ] 
+}, 
+{ 
+    "country": "Czechia",
+    "iso": "CZ",
+    "languages": [ 
+        "Czech", 
+        "German", 
+        "Hungarian", 
+        "Moravian", 
+        "Polish", 
+        "Romani", 
+        "Silesiana", 
+        "Slovak" 
+    ] 
+}, 
+{ 
+    "country": "Germany",
+    "iso": "DE",
+    "languages": [ 
+        "German", 
+        "Greek", 
+        "Italian", 
+        "Polish", 
+        "Southern Slavic Languages", 
+        "Turkish" 
+    ] 
+}, 
+{ 
+    "country": "Djibouti",
+    "iso": "DJ",
+    "languages": [ 
+        "Afar", 
+        "Arabic", 
+        "Somali" 
+    ] 
+}, 
+{ 
+    "country": "Dominica",
+    "iso": "DM",
+    "languages": [ 
+        "Creole English", 
+        "Creole French" 
+    ] 
+}, 
+{ 
+    "country": "Denmark",
+    "iso": "DK",
+    "languages": [ 
+        "Arabic", 
+        "Danish", 
+        "English", 
+        "German", 
+        "Norwegian", 
+        "Swedish", 
+        "Turkish" 
+    ] 
+}, 
+{ 
+    "country": "Dominican Republic",
+    "iso": "DO",
+    "languages": [ 
+        "Creole French", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Algeria",
+    "iso": "DZ",
+    "languages": [ 
+        "Arabic", 
+        "Berberi",
+        "French"
+    ] 
+}, 
+{ 
+    "country": "Ecuador",
+    "iso": "EC",
+    "languages": [ 
+        "Ket¬öua", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Egypt",
+    "iso": "EG",
+    "languages": [ 
+        "Arabic", 
+        "Sinaberberi" 
+    ] 
+}, 
+{ 
+    "country": "Eritrea",
+    "iso": "ER",
+    "languages": [ 
+        "Afar", 
+        "Bilin", 
+        "Hadareb", 
+        "Saho", 
+        "Tigre", 
+        "Tigrigna" 
+    ] 
+},
+{ 
+    "country": "Spain",
+    "iso": "ES",
+    "languages": [ 
+        "Basque", 
+        "Catalan", 
+        "Galecian", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Estonia",
+    "iso": "EE",
+    "languages": [ 
+        "Belorussian", 
+        "Estonian", 
+        "Finnish", 
+        "Russian", 
+        "Ukrainian" 
+    ] 
+}, 
+{ 
+    "country": "Ethiopia",
+    "iso": "ET",
+    "languages": [ 
+        "Amharic", 
+        "Gurage", 
+        "Oromo", 
+        "Sidamo", 
+        "Somali", 
+        "Tigrigna", 
+        "Walaita" 
+    ] 
+}, 
+{ 
+    "country": "Finland",
+    "iso": "FI",
+    "languages": [ 
+        "Estonian", 
+        "Finnish", 
+        "Russian", 
+        "Saame", 
+        "Swedish" 
+    ] 
+}, 
+{ 
+    "country": "Fiji Islands",
+    "iso": "FJ",
+    "languages": [ 
+        "Fijian", 
+        "Hindi" 
+    ] 
+}, 
+{ 
+    "country": "Falkland Islands",
+    "iso": "FK",
+    "languages": [ 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "France",
+    "iso": "FR",
+    "languages": [ 
+        "Arabic", 
+        "French", 
+        "Italian", 
+        "Portuguese", 
+        "Spanish", 
+        "Turkish" 
+    ] 
+}, 
+{ 
+    "country": "Faroe Islands",
+    "iso": "FO",
+    "languages": [ 
+        "Danish", 
+        "Faroese" 
+    ] 
+}, 
+{ 
+    "country": "Federated States of Micronesia",
+    "iso": "FM",
+    "languages": [ 
+        "Kosrean", 
+        "Mortlock", 
+        "Pohnpei", 
+        "Trukese", 
+        "Wolea", 
+        "Yap" 
+    ] 
+}, 
+{ 
+    "country": "Gabon",
+    "iso": "GA",
+    "languages": [ 
+        "Fang", 
+        "Mbete", 
+        "Mpongwe", 
+        "Punu-sira-nzebi" 
+    ] 
+}, 
+{ 
+    "country": "United Kingdom",
+    "iso": "GB",
+    "languages": [ 
+        "English", 
+        "Gaeli", 
+        "Kymri" 
+    ] 
+}, 
+{ 
+    "country": "Georgia",
+    "iso": "GE",
+    "languages": [ 
+        "Abhyasi", 
+        "Armenian", 
+        "Azerbaijani", 
+        "Georgiana", 
+        "Osseetti", 
+        "Russian" 
+    ] 
+}, 
+{ 
+    "country": "Ghana",
+    "iso": "GH",
+    "languages": [ 
+        "Akan", 
+        "Ewe", 
+        "Ga-adangme", 
+        "Gurma", 
+        "Joruba", 
+        "Mossi" 
+    ] 
+}, 
+{ 
+    "country": "Gibraltar",
+    "iso": "GI",
+    "languages": [ 
+        "Arabic", 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Guinea",
+    "iso": "GN",
+    "languages": [ 
+        "Ful", 
+        "Kissi", 
+        "Kpelle", 
+        "Loma", 
+        "Malinke", 
+        "Susu", 
+        "Yalunka",
+        "French"
+    ] 
+}, 
+{ 
+    "country": "Guadeloupe",
+    "iso": "GP",
+    "languages": [ 
+        "Creole French", 
+        "French" 
+    ] 
+}, 
+{ 
+    "country": "The Gambia",
+    "iso": "GM",
+    "languages": [ 
+        "Diola", 
+        "Ful", 
+        "Malinke", 
+        "Soninke", 
+        "Wolof" 
+    ] 
+}, 
+{ 
+    "country": "Guinea-Bissau",
+    "iso": "GW",
+    "languages": [ 
+        "Balante", 
+        "Crioulo", 
+        "Ful", 
+        "Malinke", 
+        "Mandyako", 
+        "Portuguese",
+        "French"
+    ] 
+}, 
+{ 
+    "country": "Equatorial Guinea",
+    "iso": "GQ",
+    "languages": [ 
+        "Bubi", 
+        "Fang" 
+    ] 
+}, 
+{ 
+    "country": "Greece",
+    "iso": "GR",
+    "languages": [ 
+        "Greek", 
+        "Turkish" 
+    ] 
+}, 
+{ 
+    "country": "Grenada",
+    "iso": "GD",
+    "languages": [ 
+        "Creole English" 
+    ] 
+}, 
+{ 
+    "country": "Greenland",
+    "iso": "GL",
+    "languages": [ 
+        "Danish", 
+        "Greenlandic" 
+    ] 
+}, 
+{ 
+    "country": "Guatemala",
+    "iso": "GT",
+    "languages": [ 
+        "Cakchiquel", 
+        "Kekch√≠", 
+        "Mam", 
+        "Quich", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "French Guiana",
+    "iso": "GF",
+    "languages": [ 
+        "Creole French", 
+        "Indian Languages" 
+    ] 
+}, 
+{ 
+    "country": "Guam",
+    "iso": "GU",
+    "languages": [ 
+        "Chamorro", 
+        "English", 
+        "Japanese", 
+        "Korean", 
+        "Philippene Languages" 
+    ] 
+}, 
+{ 
+    "country": "Guyana",
+    "iso": "GY",
+    "languages": [ 
+        "Arawakan", 
+        "Caribbean", 
+        "Creole English" 
+    ] 
+}, 
+{ 
+    "country": "Hong Kong",
+    "iso": "HK",
+    "languages": [ 
+        "Canton Chinese", 
+        "Chiu chau", 
+        "English", 
+        "Fukien", 
+        "Hakka" 
+    ] 
+}, 
+{ 
+    "country": "Honduras",
+    "iso": "HN",
+    "languages": [ 
+        "Creole English", 
+        "Garifuna", 
+        "Miskito", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Croatia",
+    "iso": "HR",
+    "languages": [ 
+        "Serbo-Croatian", 
+        "Slovene" 
+    ] 
+}, 
+{ 
+    "country": "Haiti",
+    "iso": "HT",
+    "languages": [ 
+        "French", 
+        "Haiti Creole" 
+    ] 
+}, 
+{ 
+    "country": "Hungary",
+    "iso": "HU",
+    "languages": [ 
+        "German", 
+        "Hungarian", 
+        "Romani", 
+        "Romanian", 
+        "Serbo-Croatian", 
+        "Slovak" 
+    ] 
+}, 
+{ 
+    "country": "Indonesia",
+    "iso": "ID",
+    "languages": [ 
+        "Bahasa", 
+        "Bali", 
+        "Banja", 
+        "Batakki", 
+        "Bugi", 
+        "Javanese", 
+        "Madura", 
+        "Malay", 
+        "Minangkabau", 
+        "Sunda" 
+    ] 
+}, 
+{ 
+    "country": "India",
+    "iso": "IN",
+    "languages": [ 
+        "Asami", 
+        "Bengali", 
+        "Gujarati", 
+        "Hindi", 
+        "Kannada", 
+        "Malayalam", 
+        "Marathi", 
+        "Odia", 
+        "Punjabi", 
+        "Tamil", 
+        "Telugu", 
+        "Urdu", 
+        "Sanskrit", 
+        "English", 
+        "Konkani", 
+        "Nepali", 
+        "Bodo", 
+        "Kashmiri", 
+        "Maithili", 
+        "Santali", 
+        "Sindhi" 
+    ] 
+}, 
+{ 
+    "country": "Ireland",
+    "iso": "IE",
+    "languages": [ 
+        "English", 
+        "Irish" 
+    ] 
+}, 
+{ 
+    "country": "Iran",
+    "iso": "IR",
+    "languages": [ 
+        "Arabic", 
+        "Azerbaijani", 
+        "Bakhtyari", 
+        "Balochi", 
+        "Gilaki", 
+        "Kurdish", 
+        "Luri", 
+        "Mazandarani", 
+        "Persian", 
+        "Turkmenian" 
+    ] 
+}, 
+{ 
+    "country": "Iraq",
+    "iso": "IQ",
+    "languages": [ 
+        "Arabic", 
+        "Assyrian", 
+        "Azerbaijani", 
+        "Kurdish", 
+        "Persian" 
+    ] 
+}, 
+{ 
+    "country": "Iceland",
+    "iso": "IS",
+    "languages": [ 
+        "English", 
+        "Icelandic" 
+    ] 
+}, 
+{ 
+    "country": "Israel",
+    "iso": "IL",
+    "languages": [ 
+        "Arabic", 
+        "Hebrew", 
+        "Russian" 
+    ] 
+}, 
+{ 
+    "country": "Italy",
+    "iso": "IT",
+    "languages": [ 
+        "Albaniana", 
+        "French", 
+        "Friuli", 
+        "German", 
+        "Italian", 
+        "Romani", 
+        "Sardinian", 
+        "Slovene" 
+    ] 
+}, 
+{ 
+    "country": "Jamaica",
+    "iso": "JM",
+    "languages": [ 
+        "Creole English", 
+        "Hindi" 
+    ] 
+}, 
+{ 
+    "country": "Jordan",
+    "iso": "JO",
+    "languages": [ 
+        "Arabic", 
+        "Armenian", 
+        "Circassian" 
+    ] 
+}, 
+{ 
+    "country": "Japan",
+    "iso": "JP",
+    "languages": [ 
+        "Ainu", 
+        "Chinese", 
+        "English", 
+        "Japanese", 
+        "Korean", 
+        "Philippene Languages" 
+    ] 
+}, 
+{ 
+    "country": "Kazakhstan",
+    "iso": "KZ",
+    "languages": [ 
+        "German", 
+        "Kazakh", 
+        "Russian", 
+        "Tatar", 
+        "Ukrainian", 
+        "Uzbek" 
+    ] 
+}, 
+{ 
+    "country": "Kenya",
+    "iso": "KE",
+    "languages": [ 
+        "Gusii", 
+        "Kalenjin", 
+        "Kamba", 
+        "Kikuyu", 
+        "Luhya", 
+        "Luo", 
+        "Masai", 
+        "Meru", 
+        "Nyika", 
+        "Turkana" 
+    ] 
+}, 
+{ 
+    "country": "Kyrgyzstan",
+    "iso": "KG",
+    "languages": [ 
+        "Kazakh", 
+        "Kirgiz", 
+        "Russian", 
+        "Tadzhik", 
+        "Tatar", 
+        "Ukrainian", 
+        "Uzbek" 
+    ] 
+}, 
+{ 
+    "country": "Cambodia",
+    "iso": "KH",
+    "languages": [ 
+        "Khmer" 
+    ] 
+}, 
+{ 
+    "country": "Kiribati",
+    "iso": "KI",
+    "languages": [ 
+        "Kiribati", 
+        "Tuvalu" 
+    ] 
+}, 
+{ 
+    "country": "Saint Kitts and Nevis",
+    "iso": "KN",
+    "languages": [ 
+        "Creole English", 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "South Korea",
+    "iso": "KR",
+    "languages": [ 
+        "Chinese", 
+        "Korean" 
+    ] 
+}, 
+{ 
+    "country": "Kuwait",
+    "iso": "KW",
+    "languages": [ 
+        "Arabic", 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Laos",
+    "iso": "LA",
+    "languages": [ 
+        "Lao", 
+        "Lao-Soung", 
+        "Mon-khmer", 
+        "Thai" 
+    ] 
+}, 
+{ 
+    "country": "Lebanon",
+    "iso": "LB",
+    "languages": [ 
+        "Arabic", 
+        "Armenian", 
+        "French" 
+    ] 
+}, 
+{ 
+    "country": "Liberia",
+    "iso": "LR",
+    "languages": [ 
+        "Bassa", 
+        "Gio", 
+        "Grebo", 
+        "Kpelle", 
+        "Kru", 
+        "Loma", 
+        "Malinke", 
+        "Mano" 
+    ] 
+}, 
+{ 
+    "country": "Libyan Arab Jamahiriya",
+    "iso": null,
+    "languages": [ 
+        "Arabic", 
+        "Berberi" 
+    ] 
+},
+{ 
+    "country": "Saint Lucia",
+    "iso": "LC",
+    "languages": [ 
+        "Creole French", 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Liechtenstein",
+    "iso": "LI",
+    "languages": [ 
+        "German", 
+        "Italian", 
+        "Turkish" 
+    ] 
+}, 
+{ 
+    "country": "Sri Lanka",
+    "iso": "LK",
+    "languages": [ 
+        "Mixed Languages", 
+        "Singali", 
+        "Tamil" 
+    ] 
+}, 
+{ 
+    "country": "Lesotho",
+    "iso": "LS",
+    "languages": [ 
+        "English", 
+        "Sotho", 
+        "Zulu" 
+    ] 
+}, 
+{ 
+    "country": "Lithuania",
+    "iso": "LT",
+    "languages": [ 
+        "Belorussian", 
+        "Lithuanian", 
+        "Polish", 
+        "Russian", 
+        "Ukrainian" 
+    ] 
+}, 
+{ 
+    "country": "Luxembourg",
+    "iso": "LU",
+    "languages": [ 
+        "French", 
+        "German", 
+        "Italian", 
+        "Luxembourgish", 
+        "Portuguese" 
+    ] 
+}, 
+{ 
+    "country": "Latvia",
+    "iso": "LV",
+    "languages": [ 
+        "Belorussian", 
+        "Latvian", 
+        "Lithuanian", 
+        "Polish", 
+        "Russian", 
+        "Ukrainian" 
+    ] 
+}, 
+{ 
+    "country": "Macao",
+    "iso": null,
+    "languages": [ 
+        "Canton Chinese", 
+        "English", 
+        "Mandarin Chinese", 
+        "Portuguese" 
+    ] 
+}, 
+{ 
+    "country": "Morocco",
+    "iso": "MA",
+    "languages": [ 
+        "Arabic", 
+        "Berberi",
+        "French"
+    ] 
+}, 
+{ 
+    "country": "Monaco",
+    "iso": "MC",
+    "languages": [ 
+        "English", 
+        "French", 
+        "Italian", 
+        "Monegasque" 
+    ] 
+}, 
+{ 
+    "country": "Moldova",
+    "iso": "MD",
+    "languages": [ 
+        "Bulgariana", 
+        "Gagauzi", 
+        "Romanian", 
+        "Russian", 
+        "Ukrainian" 
+    ] 
+}, 
+{ 
+    "country": "Madagascar",
+    "iso": "MG",
+    "languages": [ 
+        "French", 
+        "Malagasy" 
+    ] 
+}, 
+{ 
+    "country": "Maldives",
+    "iso": "MV",
+    "languages": [ 
+        "Dhivehi", 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Mexico",
+    "iso": "MX",
+    "languages": [ 
+        "Mixtec", 
+        "N√°huatl", 
+        "Otom√≠", 
+        "Spanish", 
+        "Yucatec", 
+        "Zapotec" 
+    ] 
+}, 
+{ 
+    "country": "Marshall Islands",
+    "iso": "MH",
+    "languages": [ 
+        "English", 
+        "Marshallese" 
+    ] 
+}, 
+{ 
+    "country": "Macedonia",
+    "iso": "MK",
+    "languages": [ 
+        "Albaniana", 
+        "Macedonian", 
+        "Romani", 
+        "Serbo-Croatian", 
+        "Turkish" 
+    ] 
+}, 
+{ 
+    "country": "Mali",
+    "iso": "ML",
+    "languages": [ 
+        "Bambara", 
+        "Ful", 
+        "Senufo and Minianka", 
+        "Songhai", 
+        "Soninke", 
+        "Tamashek",
+        "French"
+    ] 
+}, 
+{ 
+    "country": "Malta",
+    "iso": "MT",
+    "languages": [ 
+        "English", 
+        "Maltese" 
+    ] 
+}, 
+{ 
+    "country": "Myanmar",
+    "iso": "MM",
+    "languages": [ 
+        "Burmese", 
+        "Chin", 
+        "Kachin", 
+        "Karen", 
+        "Kayah", 
+        "Mon", 
+        "Rakhine", 
+        "Shan" 
+    ] 
+}, 
+{ 
+    "country": "Mongolia",
+    "iso": "MN",
+    "languages": [ 
+        "Bajad", 
+        "Buryat", 
+        "Dariganga", 
+        "Dorbet", 
+        "Kazakh", 
+        "Mongolian" 
+    ] 
+}, 
+{ 
+    "country": "Northern Mariana Islands",
+    "iso": "MP",
+    "languages": [ 
+        "Carolinian", 
+        "Chamorro", 
+        "Chinese", 
+        "English", 
+        "Korean", 
+        "Philippene Languages" 
+    ] 
+}, 
+{ 
+    "country": "Mozambique",
+    "iso": "MZ",
+    "languages": [ 
+        "Chuabo", 
+        "Lomwe", 
+        "Makua", 
+        "Marendje", 
+        "Nyanja", 
+        "Ronga", 
+        "Sena", 
+        "Shona", 
+        "Tsonga", 
+        "Tswa" 
+    ] 
+}, 
+{ 
+    "country": "Mauritania",
+    "iso": "MR",
+    "languages": [ 
+        "Ful", 
+        "Hassaniya", 
+        "Soninke", 
+        "Tukulor", 
+        "Wolof", 
+        "Zenaga" 
+    ] 
+}, 
+{ 
+    "country": "Montserrat",
+    "iso": "MS",
+    "languages": [ 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Martinique",
+    "iso": "MQ",
+    "languages": [ 
+        "Creole French", 
+        "French" 
+    ] 
+}, 
+{ 
+    "country": "Mauritius",
+    "iso": "MU",
+    "languages": [ 
+        "Bhojpuri", 
+        "Creole French", 
+        "French", 
+        "Hindi", 
+        "Marathi", 
+        "Tamil" 
+    ] 
+}, 
+{ 
+    "country": "Malawi",
+    "iso": "MW",
+    "languages": [ 
+        "Chichewa", 
+        "Lomwe", 
+        "Ngoni", 
+        "Yao" 
+    ] 
+}, 
+{ 
+    "country": "Malaysia",
+    "iso": "MY",
+    "languages": [ 
+        "Chinese", 
+        "Dusun", 
+        "English", 
+        "Iban", 
+        "Malay", 
+        "Tamil" 
+    ] 
+}, 
+{ 
+    "country": "Mayotte",
+    "iso": "YT",
+    "languages": [ 
+        "French", 
+        "Mahor", 
+        "Malagasy" 
+    ] 
+}, 
+{ 
+    "country": "Namibia",
+    "iso": "NA",
+    "languages": [ 
+        "Afrikaans", 
+        "Caprivi", 
+        "German", 
+        "Herero", 
+        "Kavango", 
+        "Nama", 
+        "Ovambo", 
+        "San" 
+    ] 
+}, 
+{ 
+    "country": "New Caledonia",
+    "iso": "NC",
+    "languages": [ 
+        "French", 
+        "Malenasian Languages", 
+        "Polynesian Languages" 
+    ] 
+}, 
+{ 
+    "country": "Niger",
+    "iso": "NE",
+    "languages": [ 
+        "Ful", 
+        "Hausa", 
+        "Kanuri", 
+        "Songhai-zerma", 
+        "Tamashek",
+        "French"
+    ] 
+}, 
+{ 
+    "country": "Norfolk Island",
+    "iso": "NF",
+    "languages": [ 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Nigeria",
+    "iso": "NG",
+    "languages": [ 
+        "Bura", 
+        "Edo", 
+        "Ful", 
+        "Hausa", 
+        "Ibibio", 
+        "Ibo", 
+        "Ijo", 
+        "Yoruba", 
+        "Kanuri", 
+        "Tiv" 
+    ] 
+}, 
+{ 
+    "country": "Nicaragua",
+    "iso": "NI",
+    "languages": [ 
+        "Creole English", 
+        "Miskito", 
+        "Spanish", 
+        "Sumo" 
+    ] 
+}, 
+{ 
+    "country": "Niue",
+    "iso": "NU",
+    "languages": [ 
+        "English", 
+        "Niue" 
+    ] 
+}, 
+{ 
+    "country": "Netherlands",
+    "iso": "NL",
+    "languages": [ 
+        "Arabic", 
+        "Dutch", 
+        "Fries", 
+        "Turkish" 
+    ] 
+}, 
+{ 
+    "country": "Norway",
+    "iso": "NO",
+    "languages": [ 
+        "Danish", 
+        "English", 
+        "Norwegian", 
+        "Saame", 
+        "Swedish" 
+    ] 
+}, 
+{ 
+    "country": "Nepal",
+    "iso": "NP",
+    "languages": [ 
+        "Bhojpuri", 
+        "Hindi", 
+        "Maithili", 
+        "Nepali", 
+        "Newari", 
+        "Tamang", 
+        "Tharu" 
+    ] 
+}, 
+{ 
+    "country": "Nauru",
+    "iso": "NR",
+    "languages": [ 
+        "Chinese", 
+        "English", 
+        "Kiribati", 
+        "Nauru", 
+        "Tuvalu" 
+    ] 
+}, 
+{ 
+    "country": "New Zealand",
+    "iso": "NZ",
+    "languages": [ 
+        "English", 
+        "Maori" 
+    ] 
+}, 
+{ 
+    "country": "Oman",
+    "iso": "OM",
+    "languages": [ 
+        "Arabic", 
+        "Balochi" 
+    ] 
+}, 
+{ 
+    "country": "Pakistan",
+    "iso": "PK",
+    "languages": [ 
+        "Balochi", 
+        "Brahui", 
+        "Hindko", 
+        "Pashto", 
+        "Punjabi", 
+        "Saraiki", 
+        "Sindhi", 
+        "Urdu" 
+    ] 
+}, 
+{ 
+    "country": "Panama",
+    "iso": "PA",
+    "languages": [ 
+        "Arabic", 
+        "Creole English", 
+        "Cuna", 
+        "Embera", 
+        "Guaym√≠", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Pitcairn Islands",
+    "iso": "PN",
+    "languages": [ 
+        "Pitcairnese" 
+    ] 
+}, 
+{ 
+    "country": "Peru",
+    "iso": "PE",
+    "languages": [ 
+        "Aimar√°", 
+        "Ket¬öua", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Philippines",
+    "iso": "PH",
+    "languages": [ 
+        "Bicol", 
+        "Cebuano", 
+        "Hiligaynon", 
+        "Ilocano", 
+        "Maguindanao", 
+        "Maranao", 
+        "Pampango", 
+        "Pangasinan", 
+        "Pilipino", 
+        "Waray-waray" 
+    ] 
+}, 
+{ 
+    "country": "Palau",
+    "iso": "PW",
+    "languages": [ 
+        "Chinese", 
+        "English", 
+        "Palau", 
+        "Philippene Languages" 
+    ] 
+}, 
+{ 
+    "country": "Papua New Guinea",
+    "iso": "PG",
+    "languages": [ 
+        "Malenasian Languages", 
+        "Papuan Languages" 
+    ] 
+}, 
+{ 
+    "country": "Poland",
+    "iso": "PL",
+    "languages": [ 
+        "Belorussian", 
+        "German", 
+        "Polish", 
+        "Ukrainian" 
+    ] 
+}, 
+{ 
+    "country": "Puerto Rico",
+    "iso": "PR",
+    "languages": [ 
+        "English", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "North Korea",
+    "iso": "KP",
+    "languages": [ 
+        "Chinese", 
+        "Korean" 
+    ] 
+}, 
+{ 
+    "country": "Portugal",
+    "iso": "PT",
+    "languages": [ 
+        "Portuguese" 
+    ] 
+}, 
+{ 
+    "country": "Paraguay",
+    "iso": "PY",
+    "languages": [ 
+        "German", 
+        "Guaran√≠", 
+        "Portuguese", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Palestine",
+    "iso": null,
+    "languages": [ 
+        "Arabic", 
+        "Hebrew" 
+    ] 
+}, 
+{ 
+    "country": "French Polynesia",
+    "iso": "PF",
+    "languages": [ 
+        "Chinese", 
+        "French", 
+        "Tahitian" 
+    ] 
+}, 
+{ 
+    "country": "Qatar",
+    "iso": "QA",
+    "languages": [ 
+        "Arabic", 
+        "Urdu" 
+    ] 
+}, 
+{ 
+    "country": "Reunion",
+    "iso": "RE",
+    "languages": [ 
+        "Chinese", 
+        "Comorian", 
+        "Creole French", 
+        "Malagasy", 
+        "Tamil" 
+    ] 
+}, 
+{ 
+    "country": "Romania",
+    "iso": "RO",
+    "languages": [ 
+        "German", 
+        "Hungarian", 
+        "Romani", 
+        "Romanian", 
+        "Serbo-Croatian", 
+        "Ukrainian" 
+    ] 
+}, 
+{ 
+    "country": "Russia",
+    "iso": "RU",
+    "languages": [ 
+        "Avarian", 
+        "Bashkir", 
+        "Belorussian", 
+        "Chechen", 
+        "Chuvash", 
+        "Kazakh", 
+        "Mari", 
+        "Mordva", 
+        "Russian", 
+        "Tatar", 
+        "Udmur", 
+        "Ukrainian" 
+    ] 
+}, 
+{ 
+    "country": "Rwanda",
+    "iso": "RW",
+    "languages": [ 
+        "French", 
+        "Rwanda" 
+    ] 
+}, 
+{ 
+    "country": "Saudi Arabia",
+    "iso": "SA",
+    "languages": [ 
+        "Arabic" 
+    ] 
+}, 
+{ 
+    "country": "Sudan",
+    "iso": "SD",
+    "languages": [ 
+        "Arabic", 
+        "Bari", 
+        "Beja", 
+        "Chilluk", 
+        "Dinka", 
+        "Fur", 
+        "Lotuko", 
+        "Nubian Languages", 
+        "Nuer", 
+        "Zande" 
+    ] 
+}, 
+{ 
+    "country": "Senegal",
+    "iso": "SN",
+    "languages": [ 
+        "Diola", 
+        "Ful", 
+        "Malinke", 
+        "Serer", 
+        "Soninke", 
+        "Wolof",
+        "French"
+    ] 
+}, 
+{ 
+    "country": "Serbia",
+    "iso": "RS",
+    "languages": [ 
+        "Serbian", 
+        "Hungarian", 
+        "Slovak", 
+        "Romanian", 
+        "Croatian", 
+        "Rusyn",  
+        "Albanian", 
+        "Bulgarian",  
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Singapore",
+    "iso": "SG",
+    "languages": [ 
+        "Chinese", 
+        "Malay", 
+        "Tamil" 
+    ] 
+}, 
+{ 
+    "country": "Saint Helena",
+    "iso": "SH",
+    "languages": [ 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Svalbard and Jan Mayen",
+    "iso": "XR",
+    "languages": [ 
+        "Norwegian", 
+        "Russian" 
+    ] 
+}, 
+{ 
+    "country": "Solomon Islands",
+    "iso": "SB",
+    "languages": [ 
+        "Malenasian Languages", 
+        "Papuan Languages", 
+        "Polynesian Languages" 
+    ] 
+}, 
+{ 
+    "country": "Sierra Leone",
+    "iso": "SL",
+    "languages": [ 
+        "Bullom-sherbro", 
+        "Ful", 
+        "Kono-vai", 
+        "Kuranko", 
+        "Limba", 
+        "Mende", 
+        "Temne", 
+        "Yalunka" 
+    ] 
+}, 
+{ 
+    "country": "El Salvador",
+    "iso": "SV",
+    "languages": [ 
+        "Nahua", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "San Marino",
+    "iso": "SM",
+    "languages": [ 
+        "Italian" 
+    ] 
+}, 
+{ 
+    "country": "Somalia",
+    "iso": "SO",
+    "languages": [ 
+        "Arabic", 
+        "Somali" 
+    ] 
+}, 
+{ 
+    "country": "Saint Pierre and Miquelon",
+    "iso": "PM",
+    "languages": [ 
+        "French" 
+    ] 
+}, 
+{ 
+    "country": "Sao Tome and Principe",
+    "iso": "ST",
+    "languages": [ 
+        "Crioulo", 
+        "French" 
+    ] 
+}, 
+{ 
+    "country": "Suriname",
+    "iso": "SR",
+    "languages": [ 
+        "Hindi", 
+        "Sranantonga" 
+    ] 
+}, 
+{ 
+    "country": "Slovakia",
+    "iso": "SK",
+    "languages": [ 
+        "Czech",
+        "Moravian", 
+        "Hungarian", 
+        "Romani", 
+        "Slovak", 
+        "Ukrainian",
+        "Russian" 
+    ] 
+}, 
+{ 
+    "country": "Slovenia",
+    "iso": "SI",
+    "languages": [ 
+        "Hungarian", 
+        "Serbo-Croatian", 
+        "Slovene" 
+    ] 
+}, 
+{ 
+    "country": "Sweden",
+    "iso": "SE",
+    "languages": [ 
+        "Arabic", 
+        "Finnish", 
+        "Norwegian", 
+        "Southern Slavic Languages", 
+        "Spanish", 
+        "Swedish" 
+    ] 
+}, 
+{ 
+    "country": "Swaziland",
+    "iso": "SZ",
+    "languages": [ 
+        "Swazi", 
+        "Zulu" 
+    ] 
+}, 
+{ 
+    "country": "Seychelles",
+    "iso": "SC",
+    "languages": [ 
+        "English", 
+        "French", 
+        "Seselwa" 
+    ] 
+}, 
+{ 
+    "country": "Syria",
+    "iso": "SY",
+    "languages": [ 
+        "Arabic", 
+        "Kurdish" 
+    ] 
+}, 
+{ 
+    "country": "Turks and Caicos Islands",
+    "iso": "TC",
+    "languages": [ 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Chad",
+    "iso": "TD",
+    "languages": [ 
+        "Arabic", 
+        "Gorane", 
+        "Hadjarai", 
+        "Kanem-bornu", 
+        "Mayo-kebbi", 
+        "Ouaddai", 
+        "Sara", 
+        "Tandjile",
+        "French"
+    ] 
+}, 
+{ 
+    "country": "Togo",
+    "iso": "TG",
+    "languages": [ 
+        "Ane", 
+        "Ewe", 
+        "Gurma", 
+        "Kaby", 
+        "Kotokoli", 
+        "Moba",
+        "Naudemba", 
+        "Watyi",
+        "French"
+    ] 
+}, 
+{ 
+    "country": "Thailand",
+    "iso": "TH",
+    "languages": [ 
+        "Chinese", 
+        "Khmer", 
+        "Kuy", 
+        "Lao", 
+        "Malay", 
+        "Thai" 
+    ] 
+}, 
+{ 
+    "country": "Tajikistan",
+    "iso": "TJ",
+    "languages": [ 
+        "Russian", 
+        "Tadzhik", 
+        "Uzbek" 
+    ] 
+}, 
+{ 
+    "country": "Tokelau",
+    "iso": null,
+    "languages": [ 
+        "English", 
+        "Tokelau" 
+    ] 
+}, 
+{ 
+    "country": "Turkmenistan",
+    "iso": "TM",
+    "languages": [ 
+        "Kazakh", 
+        "Russian", 
+        "Turkmenian", 
+        "Uzbek" 
+    ] 
+}, 
+{ 
+    "country": "Timor-Leste",
+    "iso": "TL",
+    "languages": [ 
+        "Portuguese", 
+        "Sunda" 
+    ] 
+}, 
+{ 
+    "country": "Tonga",
+    "iso": "TO",
+    "languages": [ 
+        "English", 
+        "Tongan" 
+    ] 
+}, 
+{ 
+    "country": "Trinidad and Tobago",
+    "iso": "TT",
+    "languages": [ 
+        "Creole English", 
+        "English", 
+        "Hindi" 
+    ] 
+}, 
+{ 
+    "country": "Tunisia",
+    "iso": "TN",
+    "languages": [ 
+        "Arabic", 
+        "French", 
+        "English"
+    ] 
+}, 
+{ 
+    "country": "Turkey",
+    "iso": "TR",
+    "languages": [
+        "Arabic", 
+        "Kurdish", 
+        "Turkish" 
+    ] 
+}, 
+{ 
+    "country": "Tuvalu",
+    "iso": "TV",
+    "languages": [ 
+        "English", 
+        "Kiribati", 
+        "Tuvalu" 
+    ] 
+}, 
+{ 
+    "country": "Taiwan",
+    "iso": "TW",
+    "languages": [ 
+        "Ami", 
+        "Atayal", 
+        "Hakka", 
+        "Mandarin Chinese", 
+        "Min", 
+        "Paiwan" 
+    ] 
+}, 
+{ 
+    "country": "Tanzania",
+    "iso": "TZ",
+    "languages": [ 
+        "Chaga and Pare", 
+        "Sambaa", 
+        "Bondei", 
+        "Digo", 
+        "Gogo", 
+        "Ha", 
+        "Haya", 
+        "Hehet", 
+        "Luguru", 
+        "Makonde", 
+        "Nyakusa", 
+        "Nyamwezi", 
+        "Shambala", 
+        "Swahili" 
+    ] 
+}, 
+{ 
+    "country": "Uganda",
+    "iso": "UG",
+    "languages": [ 
+        "Acholi", 
+        "Ganda", 
+        "Gisu", 
+        "Kiga", 
+        "Lango", 
+        "Lugbara", 
+        "Nkole", 
+        "Rwanda", 
+        "Soga", 
+        "Teso" 
+    ] 
+}, 
+{ 
+    "country": "Ukraine",
+    "iso": "UA",
+    "languages": [ 
+        "Belorussian", 
+        "Bulgariana", 
+        "Hungarian", 
+        "Polish", 
+        "Romanian", 
+        "Russian", 
+        "Ukrainian" 
+    ] 
+}, 
+{ 
+    "country": "United States Minor Outlying Islands",
+    "iso": null,
+    "languages": [ 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Uruguay",
+    "iso": "UY",
+    "languages": [ 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "United States",
+    "iso": "US",
+    "languages": [ 
+        "Chinese", 
+        "English", 
+        "French", 
+        "German", 
+        "Italian", 
+        "Japanese", 
+        "Korean", 
+        "Polish", 
+        "Portuguese", 
+        "Spanish", 
+        "Tagalog", 
+        "Vietnamese" 
+    ] 
+}, 
+{ 
+    "country": "Uzbekistan",
+    "iso": "UZ",
+    "languages": [ 
+        "Karakalpak", 
+        "Kazakh", 
+        "Russian", 
+        "Tadzhik", 
+        "Tatar", 
+        "Uzbek" 
+    ] 
+}, 
+{ 
+    "country": "Vatican City",
+    "iso": "VA",
+    "languages": [ 
+        "Italian" 
+    ] 
+}, 
+{ 
+    "country": "Saint Vincent and the Grenadines",
+    "iso": "VC",
+    "languages": [ 
+        "Creole English", 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "Venezuela",
+    "iso": "VE",
+    "languages": [ 
+        "Goajiro", 
+        "Spanish", 
+        "Warrau" 
+    ] 
+}, 
+{ 
+    "country": "British Virgin Islands",
+    "iso": "VG",
+    "languages": [ 
+        "English" 
+    ] 
+}, 
+{ 
+    "country": "U.S. Virgin Islands",
+    "iso": "VI",
+    "languages": [ 
+        "English", 
+        "French", 
+        "Spanish" 
+    ] 
+}, 
+{ 
+    "country": "Vietnam",
+    "iso": "VN",
+    "languages": [ 
+        "Chinese", 
+        "Khmer", 
+        "Man", 
+        "Miao", 
+        "Muong", 
+        "Nung", 
+        "Thai", 
+        "Tho", 
+        "Vietnamese" 
+    ] 
+}, 
+{ 
+    "country": "Vanuatu",
+    "iso": "VU",
+    "languages": [ 
+        "Bislama", 
+        "English", 
+        "French" 
+    ] 
+}, 
+{ 
+    "country": "Wallis and Futuna",
+    "iso": "WF",
+    "languages": [ 
+        "Futuna", 
+        "Wallis" 
+    ] 
+}, 
+{ 
+    "country": "Samoa",
+    "iso": "AS",
+    "languages": [ 
+        "English", 
+        "Samoan", 
+        "Samoan-English" 
+    ] 
+}, 
+{ 
+    "country": "Yemen",
+    "iso": "YE",
+    "languages": [ 
+        "Arabic", 
+        "Soqutri" 
+    ] 
+}, 
+{ 
+    "country": "South Africa",
+    "iso": "ZA",
+    "languages": [ 
+        "Afrikaans", 
+        "English", 
+        "Ndebele", 
+        "Northsotho", 
+        "Southsotho", 
+        "Swazi", 
+        "Tsonga", 
+        "Tswana", 
+        "Venda", 
+        "Xhosa", 
+        "Zulu" 
+    ] 
+}, 
+{ 
+    "country": "Zambia",
+    "iso": "ZM",
+    "languages": [ 
+        "Bemba", 
+        "Chewa", 
+        "Lozi", 
+        "Nsenga", 
+        "Nyanja", 
+        "Tongan" 
+    ] 
+}, 
+{ 
+    "country": "Zimbabwe",
+    "iso": "ZW",
+    "languages": [ 
+        "English", 
+        "Ndebele", 
+        "Nyanja", 
+        "Shona" 
+    ] 
+} 
+]

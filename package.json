@@ -4,13 +4,14 @@
   "packageManager": "yarn@4.9.1",
   "scripts": {
     "s": "clear && yarn tsx src/test.ts",
-    "b": "clear && tsc --emitDeclarationOnly && esbuild src/main.ts --minify --bundle --outfile=dist/main.js --platform=node --format=esm"
+    "b": "tsup src/main.ts --format esm --dts && esbuild dist/main.js --bundle --minify --format=esm --platform=node --outfile=dist/main.mjs --keep-names --allow-overwrite"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.13",
     "@types/kd-tree-javascript": "^1.0.3",
     "esbuild": "^0.25.8",
     "tsc": "^2.0.4",
+    "tsup": "^8.5.0",
     "tsx": "^4.19.3",
     "typescript": "^5.8.3"
   },

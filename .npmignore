@@ -5,16 +5,15 @@
 !.yarn/sdks
 !.yarn/versions
 
-.pnp.*
-
-/src/data
+node_modules
 
 .DS_Store
-node_modules
 .env
-tsconfig.json
-yarn.lock
 .yarnrc.yml
 .editorconfig
 .gitattributes
 .gitignore
+.pnp.*
+
+tsconfig.json
+yarn.lock
