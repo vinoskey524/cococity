@@ -5,9 +5,9 @@
   "packageManager": "yarn@4.9.2",
   "description": "A lightweight and high-performance library that provides regional data and precise GPS-based localization, without relying on external APIs.",
   "exports": {
-    "import": "./src/main.mjs"
+    "import": "./dist/main.mjs"
   },
-  "types": "./src/main.d.mts",
+  "types": "./dist/main.d.mts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vinoskey524/cococity.git"
