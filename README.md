@@ -1,4 +1,4 @@
-# cococity <img src="assets/logo.png" alt="logo" width="40" height="40" style="vertical-align:middle;">
+# cococity <img src="assets/logo.png" alt="logo" width="40" height="40" style="vertical-align:bottom;">
 
 A lightweight and high-performance library that provides regional data and precise GPS-based localization, without relying on external APIs.
 
