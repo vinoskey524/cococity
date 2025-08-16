@@ -17,11 +17,13 @@
     "url": "https://github.com/vinoskey524/cococity/issues"
   },
   "homepage": "https://github.com/vinoskey524/cococity#readme",
-  "keywords": ["coco", "cococity", "api", "gps", "regional", "localization", "location", "coutinent", "country", "city", "language", "currency", "money", "lightweight", "react", "preact", "node", "deno", "bun"],
+  "keywords": ["coco", "cococity", "api", "gps", "regional", "localization", "location", "coutinent", "country", "city", "language", "currency", "money", "lightweight", "react", "react-native", "native", "preact", "angular", "vue", "svelte", "node", "deno", "bun", "javascript", "typescript", "library", "software", "latest", "new"],
   "license": "MIT",
   "scripts": {
     "s": "clear && yarn tsx src/test.ts",
-    "b": "tsup src/main.ts --format esm --dts && esbuild dist/main.js --bundle --minify --format=esm --platform=node --outfile=dist/main.mjs --keep-names --allow-overwrite"
+    "b": "clear && tsup src/main.ts --format esm --dts && esbuild dist/main.js --bundle --minify --format=esm --platform=node --outfile=dist/main.mjs --keep-names --allow-overwrite",
+    "p": "clear && npm publish --access public",
+    "i": "clear && npm info cococity"
   },
   "devDependencies": {
     "@types/kd-tree-javascript": "^1.0.3",

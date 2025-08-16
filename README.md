@@ -43,19 +43,10 @@ $ deno add npm:cococity
 
 ## What's cococity
 
-Cococity (COtinent - COuntry - CITY) is a lightweight 100% Typescript package that provides structured and ready-to-use regional information about **continents**, **countries**, **cities**, **currencies**, **languages** and **user's location**. It is ideal for applications that require localized data without relying on external APIs and paid services.
+Cococity (**CO**tinent - **CO**untry - **CITY**) is a lightweight package that provides structured and ready-to-use regional information about **continents**, **countries**, **cities**, **currencies**, **languages** and **user's location**. It is ideal for applications that require localized data without relying on external APIs and paid services.
 
 ## Features
 
-- Retrieve data by continent, country or city.
-
-- Get associated name (in native language), ISO, dial code, currency, and more, for each country.
-
-- Lightweight and fast.
-
-- Support custom filtering and integration.
-
-- A very complete and up-to-date database.
 
 ## API Documentation
 
