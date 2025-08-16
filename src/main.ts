@@ -893,7 +893,10 @@ const getCoordsFunc = async (): Promise<FUNCTION_BASIC_RETURN_TYPE> => {
     let res: FUNCTION_BASIC_RETURN_TYPE = { ok: true, log: '', data: undefined };
     try {
         /* dev coords */
-        if (_dev_.current) { res.data = _fake_coord_.current; return res }
+        if (_dev_.current) {
+            res.data = _fake_coord_.current;
+            return res;
+        }
 
         /* prod coords */
         res.data = await getLocationFunc()
@@ -935,6 +938,10 @@ const getDistanceFunc = (x: COORDS_TYPE, y: COORDS_TYPE): FUNCTION_BASIC_RETURN_
 
 /** Init */
 const initFunc = (x: INIT_ARG_TYPE) => {
+    /* Merge cities for kd search */
+    mergeCitiesFunc();
+
+    /* - */
     if (x === undefined) return;
     const dev = x.dev;
     const fakeLocation = x.fakeLocation;
@@ -957,9 +964,6 @@ const initFunc = (x: INIT_ARG_TYPE) => {
         };
     }
     _fake_coord_.current = coords;
-
-    /* - */
-    mergeCitiesFunc();
 };
 
 /*
@@ -1005,8 +1009,9 @@ const localizeFunc = async (x?: { fromCoords?: COORDS_TYPE, maxDistance?: number
         const dst = (md < _min_distance_) ? _min_distance_ : (md > _max_distance_) ? _max_distance_ : md;
 
         const tab = tree.nearest(coords, 1, dst);
-        const ndata = extractNearestFunc(tab, coords);
+        if (tab.length === 0) throw new Error(`No location found !`);
 
+        const ndata = extractNearestFunc(tab, coords);
         res.data = ndata;
 
     } catch (e: any) { res.ok = false; res.log = e.message }

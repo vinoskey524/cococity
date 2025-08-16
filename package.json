@@ -3,6 +3,22 @@
   "version": "1.0.0",
   "type": "module",
   "packageManager": "yarn@4.9.2",
+  "description": "A lightweight and high-performance library that provides regional data and precise GPS-based localization, without relying on external APIs.",
+  "exports": {
+    "import": "./src/main.mjs"
+  },
+  "types": "./src/main.d.mts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinoskey524/cococity.git"
+  },
+  "author": "Hamet Kévin E. ODOUTAN - @vinoskey524",
+  "bugs": {
+    "url": "https://github.com/vinoskey524/cococity/issues"
+  },
+  "homepage": "https://github.com/vinoskey524/cococity#readme",
+  "keywords": [],
+  "license": "MIT",
   "scripts": {
     "s": "clear && yarn tsx src/test.ts",
     "b": "tsup src/main.ts --format esm --dts && esbuild dist/main.js --bundle --minify --format=esm --platform=node --outfile=dist/main.mjs --keep-names --allow-overwrite"
