@@ -17,7 +17,7 @@
     "url": "https://github.com/vinoskey524/cococity/issues"
   },
   "homepage": "https://github.com/vinoskey524/cococity#readme",
-  "keywords": [],
+  "keywords": ["coco", "cococity", "api", "gps", "regional", "localization", "location", "coutinent", "country", "city", "language", "currency", "money", "lightweight", "react", "preact", "node", "deno", "bun"],
   "license": "MIT",
   "scripts": {
     "s": "clear && yarn tsx src/test.ts",

@@ -100,7 +100,7 @@ It returns as result a JSON object with the following properties :
 
 - **`data`**: (`any | undefined`) Contains the expected result or undefined in case of failure.
 
-> **Note: All APIs will always return the same JSON format as result.**
+> **Note: All APIs return the same JSON format as result.**
 
 ### **getContinents**
 
@@ -191,7 +191,7 @@ console.log(lang.data);
 
   - `props?`: (`string | string[]`) A string or an array of strings representing the props you want to **retrieve** or **exclude** (any prop starting with a "!" will be excluded).
 
-  - `lang?`: (`Default | en | fr | etc...`) Specify the language in which you want to translate countries `fullName`. The default language in **English**.
+  - `lang?`: (`Default | en | fr | etc...`) Specify the language in which you want to translate countries `fullName`. The default language is **English**.
 
 - **`all()`**: It returns all countries and doesn't take any argument.
 
@@ -404,7 +404,7 @@ console.log(currencyFilter.data);
 
   - `countryId`: (`string`) A string representing the country `id` or `iso`. **This option is only available when `targetType` is `city`**.
 
-- **`byDefault()`**: The filter will check all props.
+- **`byDefault()`**: The filter will check all relevant props.
 
 - **`by(*)`**: It takes as argument a string representing the prop to check. The filter will check the specified prop only.
 
@@ -521,7 +521,7 @@ Below are other packages from the same author.
 
 - **[illisible](https://npmjs.com/package/illisible)**: A powerful and high-performance cross-runtime encryption software.
 
-<!-- - **[feedlist](https://npmjs.com/package/feedlist)**: . -->
+<!-- - **[feedlist](https://npmjs.com/package/feedlist)**: A highly efficient and high-performance feeds renderer, designed for React and React Native. -->
 
 <!-- - **[voicify](https://npmjs.com/package/voicify)**: A highly efficient and blazing fast Text-To-Speech (TTS) software. -->
 
