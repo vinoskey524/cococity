@@ -4,7 +4,7 @@
 *
 * A lightweight and high-performance library that provides regional data and precise GPS-based localization, without relying on external APIs.
 *
-* @vinoskey524 • Hamet ODOUTAN (Author)
+* @vinoskey524 • Hamet Kévin E. ODOUTAN (Author)
 *
 */
 
@@ -216,6 +216,8 @@ type LANG_TYPE = {
     "Chinese_Simplified": 'zh-tw'
 };
 
+type RUNTIME_TYPE = 'node' | 'deno' | 'bun' | 'browser' | 'react_native' | 'unknown';
+
 /* 
 -
 -
@@ -392,6 +394,26 @@ const cloneObjFunc = (x: { obj: any }): any => {
         return { ok: false, log: e.message, data: undefined };
     }
 };
+
+/*
+*
+*
+*
+*
+*
+*
+*/
+
+/** Detect runtime */
+const detectRuntime = (): RUNTIME_TYPE => {
+    const g = globalThis as any;
+    if (typeof g.Bun !== 'undefined') return 'bun';
+    else if (typeof g.Deno !== 'undefined') return 'deno';
+    else if (typeof g.window !== 'undefined' && typeof g.document !== 'undefined') return 'browser';
+    else if (g.navigator?.product === "ReactNative") return 'react_native';
+    else if (typeof g.process.versions?.node) return 'node';
+    return 'unknown';
+}
 
 /*
 *

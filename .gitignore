@@ -11,11 +11,12 @@
 # Documentation here: https://yarnpkg.com/features/caching#zero-installs
 
 node_modules
+dist
 .DS_Store
 
-dist
-/src/sql.ts
-/src/test.ts
+src/sql.ts
+src/test.ts
+cocobase.sqlite
 
 .pnp.*
 .env

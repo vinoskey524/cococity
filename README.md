@@ -1,4 +1,4 @@
-# cococity
+# cococity <img src="assets/logo.png" alt="logo" width="40" height="40" style="vertical-align:middle;">
 
 A lightweight and high-performance library that provides regional data and precise GPS-based localization, without relying on external APIs.
 
@@ -30,6 +30,9 @@ $ npm install cococity
 
 # yarn
 $ yarn add cococity
+
+# pnpm
+$ pnpm add cococity
 
 # bun
 $ bun add cococity

@@ -6,8 +6,9 @@
 !.yarn/versions
 
 node_modules
-
+src
 .DS_Store
+
 .env
 .yarnrc.yml
 .editorconfig
