@@ -4,7 +4,7 @@
 *
 * A lightweight and high-performance library that provides regional data and precise GPS-based localization, without relying on external APIs.
 *
-* @vinoskey524 • Hamet Kévin E. ODOUTAN (Author)
+* @vinoskey524 • Hamet Kévin E. ODOUTAN • vinoskey524@gmail.com (Author)
 *
 */
 

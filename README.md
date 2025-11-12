@@ -2,12 +2,14 @@
 
 A lightweight and high-performance library that provides regional data and precise GPS-based localization, without relying on external APIs.
 
+[Official Documentation](https://package524.vercel.app)
+
 ## Table of contents
 
 - [Installation](#installation)
 - [What's cococity](#whats-cococity)
-- [Features](#features)
 - [API Documentation](#api-documentation)
+    - [init](#init)
     - [getCapitalOf](#getcapitalof)
     - [getContinents](#getcontinents)
     - [getCountries](#getcountries)
@@ -43,20 +45,23 @@ $ deno add npm:cococity
 
 ## What's cococity
 
-Cococity (**CO**tinent - **CO**untry - **CITY**) is a lightweight package that provides structured and ready-to-use regional information about **continents**, **countries**, **cities**, **currencies**, **languages** and **user's location**. It is ideal for applications that require localized data without relying on external APIs and paid services.
-
-## Features
-
+Cococity (**CO**tinent - **CO**untry - **CITY**) is a lightweight package that provides structured and ready-to-use regional information about **continents**, **countries**, **cities**, **currencies**, **languages** and **user's location**. It is ideal for applications that require localized data without relying on external APIs.
 
 ## API Documentation
 
 > **Note: We're using top-level await in this documentation, so make sure that your environment is properly configured to support it as well.**
 
+### **init**
+
+```ts
+import cococity from 'cococity';
+
+export const coco = cococity.init();
+```
+
 ### **getCapitalOf**
 
 ```ts
-import coco from 'cococity';
-
 // Get the capital of a country
 const capital = coco.getCapitalOf({ countries: 'bj'});
 console.log(capital);
@@ -118,9 +123,7 @@ console.log('data ::', excludeProps.data);
 Of course, props are auto-suggested so that you won't need to memorize them.
 
 ```sh
-# log
-
-# 1. "continents.data"
+# log (1)
 data :: [
   { id: "africa", fullName: "Africa", code: "AF" },
   { id: "asia", fullName: "Asia", code: "AS" },
@@ -131,7 +134,7 @@ data :: [
   { id: "oceania", fullName: "Oceania", code: "OC" }
 ]
 
-# 2. "filterProps.data"
+# log (2)
 data :: [
   { id: "africa", fullName: "Africa" },
   { id: "asia", fullName: "Asia" },
@@ -142,7 +145,7 @@ data :: [
   { id: "oceania", fullName: "Oceania" }
 ]
 
-# 3. "excludeProps.data"
+# log (3)
 data :: [
   { id: "africa", code: "AF" },
   { id: "asia", code: "AS" },
@@ -189,9 +192,7 @@ console.log(lang.data);
 - **`of(*)`**: It takes as argument a string representing the `id` of the target continent. Here are the auto-suggested continent IDs : `africa`, `asia`, `america`, `north_america`, `south_america`, `europe`, `oceania`.
 
 ```sh
-# log
-
-# 1. "allCountries.data"
+# log (1)
 [
   {
     id: "afghanistan",
@@ -232,7 +233,7 @@ console.log(lang.data);
   ... more items
 ]
 
-# 5. "lang.data"
+# log (5)
 [
   { id: 'afghanistan', fullName: '阿富汗' },
   { id: 'albania', fullName: '阿尔巴尼亚' },
@@ -246,7 +247,7 @@ console.log(lang.data);
 ```ts
 // 1. Get all cities of the specified country
 const citiesOfBenin = coco.getCities().of('bj');
-console.log('data ::' citiesOfBenin.data);
+console.log('data ::', citiesOfBenin.data);
 
 // 2. Get all cities of many countries and filter props
 const citiesOfCountries = coco.getCities({ props: ['id', 'fullName'] }).of(['bj', 'us']);
@@ -260,9 +261,7 @@ console.log(citiesOfCountries.data);
 - **`of(*)`**: It takes as argument a string or an array of strings representing the country `id` or `iso`.
 
 ```sh
-# log
-
-# 1. "citiesOfBenin.data"
+# log (1)
 {
   bj: [
     {
@@ -309,8 +308,6 @@ console.log(currencies.data);
 
 ```sh
 # log
-
-# "currencies.data"
 [
   { nigeria: { id: 'naira', fullName: 'Naira', code: 'NGN' } },
   { us: { id: 'us_dollar', fullName: 'US Dollar', code: 'USD' } }
@@ -348,9 +345,7 @@ console.log(currencyProps.data);
 - **`of(*)`**: It takes as argument a string or an array of strings representing the target `id`, `iso` or `code` (only for currencies).
 
 ```sh
-# log
-
-# 1. "cityProps.data"
+# log (1)
 {
   moscow: [
     {
@@ -400,9 +395,7 @@ console.log(currencyFilter.data);
 - **`by(*)`**: It takes as argument a string representing the prop to check. The filter will check the specified prop only.
 
 ```sh
-# log 
-
-# 1. "cityFilter.data"
+# log (1)
 [
   {
     id: 'washington',
@@ -433,9 +426,7 @@ console.log(localizeFromCoord.data);
   - `fromCoords`: (`{ latitude: number, longitude: number }`) Coordinates.
 
 ```sh
-# log
-
-# 2. "localizeFromCoord.data"
+# log (2)
 {
   currencyId: 'cfa_franc',
   currencyName: 'CFA Franc',
@@ -488,7 +479,7 @@ console.log('distance ::', distance);
 - **`getDistance(*, *)`**: It takes as argument two JSON objects, containing the `latitude` and the `longitude` of each points.
 
 ```sh
-# log
+# log (distance)
 distance :: [ 795.6058255570176, '795.61Km', '795,606m' ]
 ```
 
@@ -496,25 +487,31 @@ distance :: [ 795.6058255570176, '795.61Km', '795,606m' ]
 
 My name is **Hamet Kévin E. ODOUTAN** (@vinoskey524) and I’ve been doing software development (web, desktop and mobile) since 2017.
 
-I’m not the kind of developer who types “How to build a cool web app” into Google and picks the first response, or the kind who makes a dumb copy-paste from ChatGPT. No !
-I like to understand things and know what I’m really doing. For me, a real developer should be able to explain every single line of his code.
+I’m not the kind of developer who makes a dumb copy-paste from ChatGPT. No! I like to understand things and know what I’m really doing. 
+For me, a real developer should be able to explain every single line of his code.
 
 Don’t ask me which school or university I attended, because I taught myself software engineering using PDFs from **openclassrooms.com**, which was called **siteduzero** when I started.
-A sad truth is that you can’t learn coding just by watching videos; you need books !
+A sad truth is that you can’t learn coding just by watching videos; you need books!
 
-I’m really passionate about building software, and **I sincerely believe that being a developer is not just a job, but a lifestyle** !
+I’m really passionate about building software, and **I sincerely believe that being a developer is not just a job, but a lifestyle**!
 
 ## Other packages
 
 Below are other packages from the same author.
 
+<!-- - **[voicify](https://npmjs.com/package/voicify)**: A highly efficient and blazing fast Text-To-Speech (TTS) software. -->
+
 - **[forestdb](https://npmjs.com/package/forestdb)**: An uncomplicated real-time database with encrypted HTTP and WebSocket server-client communication, fast caching, dataflow and state management, a cross-runtime file system manager, and more, working seamlessly on both frontend and backend.
 
 - **[illisible](https://npmjs.com/package/illisible)**: A powerful and high-performance cross-runtime encryption software.
 
-<!-- - **[feedlist](https://npmjs.com/package/feedlist)**: A highly efficient and high-performance feeds renderer, designed for React and React Native. -->
+- **[feedlist-react](https://npmjs.com/package/@vinoskey524/feedlist-react)**: A highly efficient and high-performance feeds renderer, designed for React.
 
-<!-- - **[voicify](https://npmjs.com/package/voicify)**: A highly efficient and blazing fast Text-To-Speech (TTS) software. -->
+- **[feedlist-react-native](https://npmjs.com/package/@vinoskey524/feedlist-react-native)**: A highly efficient and high-performance feeds renderer, designed for React Native (Bare and Expo).
+
+- **[panda](https://npmjs.com/package/@vinoskey524/panda)**: Advanced JSON-based state manager for React and React Native (Bare and Expo).
+
+- **[oh-my-json](https://npmjs.com/package/@vinoskey524/oh-my-json)**: The zenith of JSON manipulation.
 
 ## Contact Me
 

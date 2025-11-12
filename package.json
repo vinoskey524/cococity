@@ -1,13 +1,17 @@
 {
   "name": "cococity",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "type": "module",
   "packageManager": "yarn@4.9.2",
   "description": "A lightweight and high-performance library that provides regional data and precise GPS-based localization, without relying on external APIs.",
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
   "exports": {
-    "import": "./dist/main.mjs"
+    "import": {
+      "types": "./dist/main.d.ts",
+      "default": "./dist/main.js"
+    }
   },
-  "types": "./dist/main.d.mts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vinoskey524/cococity.git"
@@ -16,11 +20,42 @@
   "bugs": {
     "url": "https://github.com/vinoskey524/cococity/issues"
   },
-  "homepage": "https://github.com/vinoskey524/cococity#readme",
-  "keywords": ["coco", "cococity", "api", "gps", "regional", "localization", "location", "coutinent", "country", "city", "language", "currency", "money", "lightweight", "react", "react-native", "native", "preact", "angular", "vue", "svelte", "node", "deno", "bun", "javascript", "typescript", "library", "software", "latest", "new"],
+  "homepage": "https://package524.vercel.app",
+  "keywords": [
+    "coco",
+    "cococity",
+    "api",
+    "gps",
+    "regional",
+    "localization",
+    "location",
+    "coutinent",
+    "country",
+    "city",
+    "language",
+    "currency",
+    "money",
+    "lightweight",
+    "react",
+    "react-native",
+    "native",
+    "preact",
+    "angular",
+    "vue",
+    "svelte",
+    "node",
+    "deno",
+    "bun",
+    "javascript",
+    "typescript",
+    "library",
+    "software",
+    "latest",
+    "new"
+  ],
   "license": "MIT",
   "scripts": {
-    "s": "clear && yarn tsx src/test.ts",
+    "t": "clear && yarn tsx src/test.ts",
     "b": "clear && tsup src/main.ts --format esm --dts && esbuild dist/main.js --bundle --minify --format=esm --platform=node --outfile=dist/main.mjs --keep-names --allow-overwrite",
     "p": "clear && npm publish --access public",
     "i": "clear && npm info cococity"
