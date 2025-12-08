@@ -150,7 +150,7 @@ type GET_PROPERTIES_OF_ARG_TYPE<T> = T extends 'city' ? string | string[]
     : T extends 'currency' ? CURRENCY_ID_CODE_TYPE : any;
 
 
-type FILTER_FULL_ARG_TYPE<T> = T extends 'city' ? { targetType: T, searchValue: SEARCH_VALUE_TYPE, fromStart?: boolean, countryId: string } : { targetType: T, searchValue: SEARCH_VALUE_TYPE, fromStart?: boolean };
+type FILTER_FULL_ARG_TYPE<T> = T extends 'city' ? { targetType: T, searchValue: SEARCH_VALUE_TYPE, fromStart?: boolean, countryId?: string } : { targetType: T, searchValue: SEARCH_VALUE_TYPE, fromStart?: boolean };
 type FILTER_BY_ARG_TYPE<T> = T extends 'city' ? CITY_PROPS_LIST_TYPE | CITY_PROPS_LIST_TYPE[]
     : T extends 'country' ? COUNTRY_PROPS_LIST_TYPE | COUNTRY_PROPS_LIST_TYPE[]
     : T extends 'continent' ? CONTINENT_PROPS_LIST_TYPE | CONTINENT_PROPS_LIST_TYPE[]
@@ -476,7 +476,8 @@ const extractNearestFunc = (x: any[], userCoords: any) => {
     fulldata['userLatitude'] = userCoords['latitude'];
     fulldata['userLongitude'] = userCoords['longitude'];
     /* capital */
-    if (city.isCapital) fulldata['distanceFromCapital'] = [0, '0km', '0m'];
+    if (city.isCapital) fulldata['distanceFromCapital'] =
+        [0, '0km', '0m'];
     else {
         const cap: any = getCapitalFunc([iso]).data!;
         const cdata = cap[iso];
@@ -512,25 +513,31 @@ const filterFunc = <T extends T4>(targetType: T, value: SEARCH_VALUE_TYPE, fromS
         switch (targetType) {
             case 'city': {
                 const clonedData = cloneObjFunc({ obj: cityDATA });
-                let cid = countryId!.toLowerCase(); /* Can be country "id" or "iso" */
-                let cdata: any = clonedData.filter((e: any) => [e.countryId, (e.countryIsoId).toLowerCase()].includes(cid));
-
-                /* If country not found */
-                if (cdata.length === 0) {
-                    res.ok = false;
-                    res.log = res.log + `\nNo country found for "${countryId}"`;
-                    return res;
-                }
+                let cities: any[] = [];
 
                 /* - */
-                const cities: any[] = cdata[0].cities;
+                if (countryId) {
+                    let cid = countryId!.toLowerCase(); /* Can be country "id" or "iso" */
+                    let cdata: any = clonedData.filter((e: any) => [e.countryId, (e.countryIsoId).toLowerCase()].includes(cid));
+                    /* If country not found */
+                    if (cdata.length === 0) {
+                        res.ok = false;
+                        res.log = res.log + `\nNo country found for "${countryId}"`;
+                        return res;
+                    }
+                    cities = cdata[0].cities;
+
+                } else cities = mergedCityDATA;
+
+                /* - */
                 let val = String(value).toLowerCase();
                 let fprops = filterProps || ['id', 'fullName'];
                 const fdata: any = cities.filter((e: any) => {
                     for (let f = 0; f < fprops.length; f++) {
                         const cprop = fprops[f];
                         const cval = String(e[cprop]).toLocaleLowerCase();
-                        if (cval.includes(val)) return fromStart ? (cval.indexOf(val) === 0 ? true : false) : true;
+                        if (cval.includes(val))
+                            return fromStart ? (cval.indexOf(val) === 0 ? true : false) : true;
                     }
                     return false;
                 });
@@ -545,7 +552,8 @@ const filterFunc = <T extends T4>(targetType: T, value: SEARCH_VALUE_TYPE, fromS
                     for (let f = 0; f < fprops.length; f++) {
                         const cprop = fprops[f];
                         const cval = String(e[cprop]).toLocaleLowerCase();
-                        if (cval.includes(val)) return fromStart ? (cval.indexOf(val) === 0 ? true : false) : true;
+                        if (cval.includes(val))
+                            return fromStart ? (cval.indexOf(val) === 0 ? true : false) : true;
                     }
                     return false;
                 });
@@ -560,7 +568,8 @@ const filterFunc = <T extends T4>(targetType: T, value: SEARCH_VALUE_TYPE, fromS
                     for (let f = 0; f < fprops.length; f++) {
                         const cprop = fprops[f];
                         const cval = String(e[cprop]).toLocaleLowerCase();
-                        if (cval.includes(val)) return fromStart ? (cval.indexOf(val) === 0 ? true : false) : true;
+                        if (cval.includes(val))
+                            return fromStart ? (cval.indexOf(val) === 0 ? true : false) : true;
                     }
                     return false;
                 });
@@ -575,7 +584,8 @@ const filterFunc = <T extends T4>(targetType: T, value: SEARCH_VALUE_TYPE, fromS
                     for (let f = 0; f < fprops.length; f++) {
                         const cprop = fprops[f];
                         const cval = String(e[cprop]).toLocaleLowerCase();
-                        if (cval.includes(val)) return fromStart ? (cval.indexOf(val) === 0 ? true : false) : true;
+                        if (cval.includes(val))
+                            return fromStart ? (cval.indexOf(val) === 0 ? true : false) : true;
                     }
                     return false;
                 });
@@ -1031,12 +1041,13 @@ const logFunc = (...log: any[]) => { if (_dev_.current) console.log(...log) };
 */
 
 const mergeCitiesFunc = () => {
-    if (mergedCityDATA.length > 0) return;
+    if (mergedCityDATA.length > 0)
+        return;
     const clonedData = structuredClone(cityDATA);
     for (let i = 0; i < clonedData.length; i++) {
         const ccity: JSON_BASIC_TYPE[] = clonedData[i].cities;
         mergedCityDATA.push(...ccity);
-    };
+    }
 };
 
 /*
