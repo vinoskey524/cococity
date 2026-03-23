@@ -1,6 +1,6 @@
 {
   "name": "cococity",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "type": "module",
   "packageManager": "yarn@4.9.2",
   "description": "A lightweight and high-performance library that provides regional data and precise GPS-based localization, without relying on external APIs.",
@@ -58,7 +58,7 @@
     "t": "clear && yarn tsx src/test.ts",
     "b": "clear && tsup src/main.ts --format esm --dts && esbuild dist/main.js --bundle --minify --format=esm --platform=node --outfile=dist/main.mjs --keep-names --allow-overwrite",
     "p": "clear && npm publish --access public",
-    "i": "clear && npm info cococity"
+    "f": "clear && npm info cococity"
   },
   "devDependencies": {
     "@types/kd-tree-javascript": "^1.0.3",

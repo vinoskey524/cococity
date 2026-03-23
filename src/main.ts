@@ -548,7 +548,7 @@ const filterFunc = <T extends T4>(targetType: T, value: SEARCH_VALUE_TYPE, fromS
                 const clonedData = cloneObjFunc({ obj: countryDATA });
                 let val = String(value).toLowerCase();
                 let fprops = filterProps || ['id', 'fullName', 'dialCode'];
-                const fdata: any = clonedData.filter((e: any) => {
+                const fdata = clonedData.filter((e: any) => {
                     for (let f = 0; f < fprops.length; f++) {
                         const cprop = fprops[f];
                         const cval = String(e[cprop]).toLocaleLowerCase();
@@ -557,6 +557,17 @@ const filterFunc = <T extends T4>(targetType: T, value: SEARCH_VALUE_TYPE, fromS
                     }
                     return false;
                 });
+
+                /* Insert flags in search (Fix - v1.0.7) */
+                for (let c = 0; c < fdata.length; c++) {
+                    const ctarg = fdata[c];
+                    const iso = ctarg.iso[0] || undefined;
+                    if (iso === undefined) continue;
+                    const xtr = getCountryExtraDataFunc(iso);
+                    ctarg['flag'] = xtr['flag'];
+                }
+
+                /* - */
                 res.data = fdata;
             } break;
 
@@ -960,7 +971,8 @@ const initFunc = (x: INIT_ARG_TYPE) => {
     _dev_.current = dev;
 
     /* Set fake location */
-    if (!fakeLocation) return;
+    if (!fakeLocation)
+        return;
     let coords: any = fakeLocation;
     if (typeof fakeLocation === 'string') {
         switch (fakeLocation) {
