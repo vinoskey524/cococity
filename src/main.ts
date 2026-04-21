@@ -404,26 +404,6 @@ const cloneObjFunc = (x: { obj: any }): any => {
 *
 */
 
-/** Detect runtime */
-const detectRuntime = (): RUNTIME_TYPE => {
-    const g = globalThis as any;
-    if (typeof g.Bun !== 'undefined') return 'bun';
-    else if (typeof g.Deno !== 'undefined') return 'deno';
-    else if (typeof g.window !== 'undefined' && typeof g.document !== 'undefined') return 'browser';
-    else if (g.navigator?.product === "ReactNative") return 'react_native';
-    else if (typeof g.process.versions?.node) return 'node';
-    return 'unknown';
-}
-
-/*
-*
-*
-*
-*
-*
-*
-*/
-
 /** Extract props */
 const extractPropsFunc = (data: any[], props: any): any[] => {
     const fdata = Array.isArray(data) ? data : [data];

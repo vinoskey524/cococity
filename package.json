@@ -1,6 +1,6 @@
 {
   "name": "cococity",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "module",
   "packageManager": "yarn@4.9.2",
   "description": "A lightweight and high-performance library that provides regional data and precise GPS-based localization, without relying on external APIs.",
